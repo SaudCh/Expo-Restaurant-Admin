@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Admin Restaurant",
+    "slug": "restaurantAdmin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/logo.png",
+    "splash": {
+      "image": "./assets/img/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.saudch00.restaurantAdmin"
+    },
+    "web": {
+      "favicon": "./assets/img/logo.png"
+    }
+  }
+}
